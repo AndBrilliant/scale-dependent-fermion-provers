@@ -1,0 +1,86 @@
+{
+  "timestamp": "2025-09-25T13:49:03.068623",
+  "scale": "2 GeV",
+  "scheme": "MS-bar",
+  "constraints": {
+    "constraint_1": {
+      "description": "m_d/m_u = (m_s/m_d / 2)^(1/3)",
+      "lhs": 2.1620370370370368,
+      "rhs": 2.154434690031884,
+      "sigma": 0.09696606791129554,
+      "proven": true
+    },
+    "constraint_2": {
+      "description": "r_sd = 10 * r_du",
+      "lhs": 20.0,
+      "rhs": 21.620370370370367,
+      "sigma": 1.8819871850688445,
+      "proven": false
+    },
+    "constraint_3": {
+      "description": "log10(m_s/m_u) = log10(m_d/m_u) + 1",
+      "lhs": 1.6358931250791624,
+      "rhs": 1.3348631294151811,
+      "sigma": 13.964233650480386,
+      "proven": false
+    },
+    "constraint_4": {
+      "description": "m_s/m_d = 2 * (m_d/m_u)^3",
+      "lhs": 20.0,
+      "rhs": 20.212469794683223,
+      "sigma": 0.09664612204790798,
+      "proven": true
+    },
+    "constraint_5": {
+      "description": "m_s = m_d * \u221a(m_d/m_u) * \u221a20",
+      "lhs": 93.4,
+      "rhs": 30.708842224036072,
+      "sigma": 45.07552471793627,
+      "proven": false
+    }
+  },
+  "geometric_patterns": {
+    "ratio_hierarchy": 9.250535331905782,
+    "sqrt_structure": 6.57576921285569,
+    "log2_structure": 5.434319332433556,
+    "logarithmic_angles": [
+      0.0,
+      37.634050474846,
+      71.54056756040556
+    ]
+  },
+  "scale_invariance": {
+    "1_GeV": {
+      "r_du": 2.147255849047755,
+      "predicted": 2.1519600811908894,
+      "deviation_percent": 0.2190811190580993
+    },
+    "2_GeV": {
+      "r_du": 2.1620370370370368,
+      "predicted": 2.154434690031884,
+      "deviation_percent": 0.35162889788287705
+    },
+    "3_GeV": {
+      "r_du": 2.170875012661438,
+      "predicted": 2.155895539999587,
+      "deviation_percent": 0.690020041434186
+    },
+    "5_GeV": {
+      "r_du": 2.1822174036856117,
+      "predicted": 2.157750158898895,
+      "deviation_percent": 1.1212102307218903
+    },
+    "10_GeV": {
+      "r_du": 2.197990994021432,
+      "predicted": 2.160292329143976,
+      "deviation_percent": 1.715141917323452
+    }
+  },
+  "summary": {
+    "constraints_proven": 2,
+    "total_constraints": 5,
+    "success_rate": 40.0,
+    "combined_p_value": 1.1102230246251565e-16,
+    "combined_sigma": 8.292361075813597
+  }
+}
