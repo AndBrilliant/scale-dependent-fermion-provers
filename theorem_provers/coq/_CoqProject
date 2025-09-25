@@ -1,0 +1,8 @@
+# Coq project for fermion mass hierarchy proofs
+
+-R . FermionProvers
+-arg -w -arg -notation-overridden
+
+FermionBasic.v
+ScaleDependence.v 
+GeometricPatterns.v
