@@ -1,5 +1,7 @@
 # Scale-Dependent Fermion Provers
 
+Prover scripts for "Scale Dependence as Physical Signal: Geometric Patterns in Fermion Masses at Critical Gauge Couplings" - formal verification tools for geometric scaling patterns in fermion mass hierarchies
+
 ## 🏆 CUBE ROOT RELATIONSHIP DEFINITIVELY PROVEN 🏆
 
 After 2+ billion GPU-accelerated parameter searches, we have definitively proven:
